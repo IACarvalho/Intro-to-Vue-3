@@ -28,6 +28,9 @@
             </ul>
 
             <div 
+              v-for="(variant, index) in variants" 
+              :key="variant.id" 
+              @mouseover="updateVariant(index)" 
               class="color-circle" 
               v-for="(variant, index) in variants" 
               :key="variant.id" 
