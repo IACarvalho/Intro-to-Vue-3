@@ -12,5 +12,6 @@ const app = Vue.createApp({
         removeProduct(){
             this.cart.pop()
         }
+        // solution
     }
 })
